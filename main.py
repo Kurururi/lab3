@@ -4,14 +4,14 @@ import random
 
 n = int(input("Введите количество слов\n"))
 i = 1
-S = ""
+s = ""
 
 while i <= n:
     w = str(input("Введите слово\n"))
-    S = S + w + " "
+    s = s + w + " "
     i += 1
 
-print(S)
+print(s)
 
 # ************************
 
